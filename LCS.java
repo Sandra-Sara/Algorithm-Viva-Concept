@@ -15,8 +15,6 @@ public class LCS{
                 }
             }
         }
-        //int i = m;
-        //int j = n;
         StringBuilder lcs = new StringBuilder();
         while(m > 0 && n > 0){
             if(s1.charAt(m-1) == s2.charAt(n-1)){
